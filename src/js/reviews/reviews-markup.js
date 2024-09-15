@@ -8,7 +8,8 @@ export const createCardTemplate = cardInfo => {
             onerror="this.src='/img/reviews/profile-photo.png'"
             class="reviews-list-item-icon"
             width="48"
-            height="48"
+            height="48" 
+            loading="lazy"
           />
           <h3 class="reviews-list-item-title">${author}</h3>
           <p class="reviews-list-item-text">

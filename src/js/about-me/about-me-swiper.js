@@ -22,7 +22,8 @@ const swiper = new Swiper('.hard-skills-swiper', {
     allowSlideNext: true,
     mousewheel: {
         enabled: true,
-        invert: true
+        invert: true,
+        passive: true
     },
 
     navigation: {
