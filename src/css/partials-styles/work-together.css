@@ -331,7 +331,7 @@
 }
 
 #btn-up:hover {
-  border-color: var(--red);
+  border-color: var(--red-dark);
 }
 
 @media screen and (min-width: 768px) {

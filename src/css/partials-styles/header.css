@@ -106,11 +106,10 @@
 
 @media screen and (min-resolution: 192dpi) {
   .mobile-bg {
-    background-image: url(/img/hero/hero-mobile@2x.png);
+    background-image: url('/img/header/mobile-back@2x.png');
   }
 }
 
-url('/img/header/mobile-back@2x.png') 2x
 
 .mobile-bg.is-open {
   opacity: 1;

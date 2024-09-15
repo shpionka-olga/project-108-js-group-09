@@ -3,6 +3,7 @@
   --dark: #242527;
   --dark-light: #3b3b3b;
   --red: #ed3b44;
+  --red-dark: #7d1f24;
   --white: #fafafa;
   --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -23,6 +24,12 @@ body {
 .container {
   padding-left: 16px;
   padding-right: 16px;
+}
+
+body .os-theme-dark {
+  --os-handle-bg: var(--red-dark);
+  --os-handle-bg-hover: var(--dark-light);
+  --os-handle-bg-active: var(--dark-light);
 }
 
 /* MOBILE ADAPTIVE */

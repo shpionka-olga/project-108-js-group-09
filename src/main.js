@@ -1,3 +1,4 @@
+import './js/scrollbar';
 import './js/header/header';
 import './js/hero/hero';
 import './js/about-me/about-me';
