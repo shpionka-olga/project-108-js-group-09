@@ -201,7 +201,6 @@ body .information-item .ac-panel .description-list {
     height: 20px;
     stroke: var(--dark-light);
     fill: transparent;
-    rotate: 180deg;
 }
 
 .hard-skills-navigation-button-next:hover .arrow-right,
