@@ -229,7 +229,7 @@
   }
 
   .header-list-item:hover {
-    color: var(--red);
+    color: var(--red-dark);
   }
 
   .header-list > .header-list-item::after {
