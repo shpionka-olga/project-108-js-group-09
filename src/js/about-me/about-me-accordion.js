@@ -53,14 +53,20 @@ const changeStyleAccordionTriggerBtn = () => {
 }
 
 const scrollDownInformationPanel = (currentElement) => {
+    // currentElement.scrollIntoView({
+    //          block: 'center',
+    //          behavior: 'smooth'
+    //  });
     const elementRect = currentElement.getBoundingClientRect();
     const elementY = elementRect.top;
     const viewportHeight = window.innerHeight;
 
     window.scrollTo({
         top: elementY + window.scrollY - (viewportHeight / 2) + (elementRect.height / 2),
+
         behavior: 'smooth'
     });
+
 
 };
 
@@ -80,7 +86,7 @@ renderContentAccordion(informationData);
 
 const accordion = new Accordion('.accordion-container', {
     duration: 500,
-    showMultiple: false,
+    showMultiple: true,
     openOnInit: [0],
     triggerClass: "information-item-button",
     beforeOpen: (currentElement) => {
